@@ -1,5 +1,5 @@
 function cachipunTrigger(){
-    const repetitions = prompt('Ingresar cantidad de veces que quedemos jugar')
+    const repetitions = prompt('Cuantas veces quieres jugar')
     const repertitionQty = Number.parseInt(repetitions)
 
     alert(`El juego se repetira ${repertitionQty} veces`)
@@ -59,8 +59,6 @@ function cachipunTrigger(){
         }
 
         const resultJSON = JSON.stringify({ userMove, machineMove })
-        document.getElementById("winner").innerHTML = (winner);
-        console.log({ userMove, machineMove });
-        console.log(`El ganador es: ${winner}`);
+        document.getElementById("winner").innerHTML = (resultJSON);
     }
 }
