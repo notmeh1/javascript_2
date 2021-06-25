@@ -53,7 +53,7 @@ function cachipunTrigger(){
         if (winner === "User") {
             alert("El Jugador gana, felicidades.")
         } else if (winner === "Machine"){
-            alert("La computadora gana, intente otra ves")
+            alert("La computadora gana, intente otra vez")
         } else {
             alert("Hay un empate")
         }
